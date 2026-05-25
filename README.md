@@ -2,21 +2,29 @@
 
 Interactive satellite-tile galleries showing predicted *An.* larvae density for 1518 verified patches in Jigjiga, Ethiopia (imagery date 2026-05-03).
 
-## Live galleries (GitHub Pages)
+## Live links (GitHub Pages)
 
 - **Landing page:** https://gladcolor.github.io/Ethiopia_larva/
+
+### Predicted larval density galleries
+
 - **High → Low** (highest predicted larvae first): https://gladcolor.github.io/Ethiopia_larva/gallery_pred_jigjiga_20260503_high_to_low.html
 - **Low → High** (lowest predicted larvae first): https://gladcolor.github.io/Ethiopia_larva/gallery_pred_jigjiga_20260503_low_to_high.html
 
 Click any tile to open a full-size view; use ← / → to navigate, Esc to close.
 
+### Literature dashboard
+
+- **Mosquito LORE — Literature-driven Open Research Engine:** https://gladcolor.github.io/Ethiopia_larva/mosquito_lore_dashboard.html
+
 ## Contents
 
 | Path | Description |
 |---|---|
-| `index.html` | Landing page linking to both galleries |
+| `index.html` | Landing page linking to the galleries and dashboard |
 | `gallery_pred_jigjiga_20260503_high_to_low.html` | Gallery sorted high → low |
 | `gallery_pred_jigjiga_20260503_low_to_high.html` | Gallery sorted low → high |
+| `mosquito_lore_dashboard.html` | Interactive literature review dashboard (≈75 MB, self-contained) |
 | `tiles/` | 1518 satellite PNG tiles (`{Record_ID}_100m.png`) |
 
 ## Data

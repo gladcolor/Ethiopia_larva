@@ -3,26 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ethiopia Larval Density Galleries</title>
+<title>Ethiopia Larval Density &amp; Mosquito Research</title>
 <style>
 * {box-sizing:border-box;margin:0;padding:0}
 body {font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#1a1a2e;min-height:100vh;color:#e0e0e0;display:flex;align-items:center;justify-content:center;padding:20px}
 .container {max-width:760px;width:100%;text-align:center}
 h1 {color:#e94560;font-size:2.2rem;margin-bottom:10px}
 .subtitle {color:#aaa;margin-bottom:36px;font-size:1.05rem}
+.section-title {color:#e9c46a;font-size:.9rem;text-transform:uppercase;letter-spacing:.08em;margin:24px 0 10px;text-align:left}
 .cards {display:grid;grid-template-columns:1fr 1fr;gap:18px}
 @media (max-width:600px){.cards{grid-template-columns:1fr}}
-.card {background:#16213e;border:1px solid #0f3460;border-radius:12px;padding:28px 20px;text-decoration:none;color:inherit;transition:transform .2s,border-color .2s,box-shadow .2s}
+.card {background:#16213e;border:1px solid #0f3460;border-radius:12px;padding:28px 20px;text-decoration:none;color:inherit;transition:transform .2s,border-color .2s,box-shadow .2s;display:block}
 .card:hover {transform:translateY(-4px);border-color:#e94560;box-shadow:0 8px 25px rgba(233,69,96,.25)}
 .card h2 {color:#e94560;font-size:1.15rem;margin-bottom:8px}
 .card p {color:#ccc;font-size:.92rem;line-height:1.45}
+.card.wide {grid-column:1/-1}
+.card.wide h2 {color:#58a6ff}
+.card.wide:hover {border-color:#58a6ff;box-shadow:0 8px 25px rgba(88,166,255,.25)}
 .footer {margin-top:36px;color:#666;font-size:.85rem}
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>Ethiopia Larval Density</h1>
-  <p class="subtitle">Predicted <em>An.</em> larvae density &mdash; Jigjiga, 2026-05-03 (1517 patches)</p>
+  <h1>Ethiopia Larval Density &amp; Mosquito Research</h1>
+  <p class="subtitle">Predicted <em>An.</em> larvae density &mdash; Jigjiga, 2026-05-03 (1518 patches)</p>
+
+  <div class="section-title">Predicted larval density galleries</div>
   <div class="cards">
     <a class="card" href="gallery_pred_jigjiga_20260503_high_to_low.html">
       <h2>High &rarr; Low</h2>
@@ -33,6 +39,15 @@ h1 {color:#e94560;font-size:2.2rem;margin-bottom:10px}
       <p>Browse satellite patches sorted by predicted larvae count, lowest first.</p>
     </a>
   </div>
+
+  <div class="section-title">Literature dashboard</div>
+  <div class="cards">
+    <a class="card wide" href="mosquito_lore_dashboard.html">
+      <h2>Mosquito LORE &mdash; Literature-driven Open Research Engine</h2>
+      <p>Interactive review of mosquito research literature (large self-contained dashboard, ~75&nbsp;MB &mdash; first load may take a few seconds).</p>
+    </a>
+  </div>
+
   <div class="footer">Source: <a href="https://github.com/gladcolor/Ethiopia_larva" style="color:#888">github.com/gladcolor/Ethiopia_larva</a></div>
 </div>
 </body>
