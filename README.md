@@ -1,12 +1,12 @@
-# Ethiopia Larval Density — Jigjiga 2026-05-03
+# Ethiopia Larval Productivity — Jigjiga 2026-05-03
 
-Interactive satellite-tile galleries showing predicted *An.* larvae density for 1518 verified patches in Jigjiga, Ethiopia (imagery date 2026-05-03).
+Interactive satellite-tile galleries showing predicted *An.* larvae productivity for 1518 verified patches in Jigjiga, Ethiopia (imagery date 2026-05-03).
 
 ## Live links (GitHub Pages)
 
 - **Landing page:** https://gladcolor.github.io/Ethiopia_larva/
 
-### Predicted larval density galleries
+### Predicted larval productivity galleries
 
 - **High → Low** (highest predicted larvae first): https://gladcolor.github.io/Ethiopia_larva/gallery_pred_jigjiga_20260503_high_to_low.html
 - **Low → High** (lowest predicted larvae first): https://gladcolor.github.io/Ethiopia_larva/gallery_pred_jigjiga_20260503_low_to_high.html
