@@ -17,14 +17,21 @@ Click any tile to open a full-size view; use ← / → to navigate, Esc to close
 
 - **Mosquito LORE — Literature-driven Open Research Engine:** https://gladcolor.github.io/Ethiopia_larva/mosquito_lore_dashboard.html
 
+### LORE GeoArchitect reports
+
+- **Dry-season *An. stephensi* larval productivity factors:** https://gladcolor.github.io/Ethiopia_larva/lore_reports/dry_season_anopheles_stephensi_larval_productivity_factors.html
+- ***Aedes aegypti* indoor resting-height factors:** https://gladcolor.github.io/Ethiopia_larva/lore_reports/aedes_aegypti_indoor_resting_height_factors.html
+- **Zika transmission factors — Mérida, Mexico:** https://gladcolor.github.io/Ethiopia_larva/lore_reports/zika_transmission_factors_merida_mexico.html
+
 ## Contents
 
 | Path | Description |
 |---|---|
-| `index.html` | Landing page linking to the galleries and dashboard |
+| `index.html` | Landing page linking to the galleries, dashboard, and reports |
 | `gallery_pred_jigjiga_20260503_high_to_low.html` | Gallery sorted high → low |
 | `gallery_pred_jigjiga_20260503_low_to_high.html` | Gallery sorted low → high |
 | `mosquito_lore_dashboard.html` | Interactive literature review dashboard (≈75 MB, self-contained) |
+| `lore_reports/` | Topic-specific LORE GeoArchitect reports (self-contained HTML) |
 | `tiles/` | 1518 satellite PNG tiles (`{Record_ID}_100m.png`) |
 
 ## Data
